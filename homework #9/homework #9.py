@@ -1,5 +1,7 @@
 import random
 from termcolor import colored, cprint
+import colorama
+colorama.init()
 
 # define vehicle class - parent class
 class Vehicle:
